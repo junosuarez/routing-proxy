@@ -1,0 +1,24 @@
+{
+  "name": "routing-proxy",
+  "version": "0.1.0",
+  "description": "route http requests to servers based on url path",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/AgileDiagnosis/routing-proxy.git"
+  },
+  "keywords": [
+    "http",
+    "proxy",
+    "route"
+  ],
+  "contributors": ["jden <jason@denizac.org>"],
+  "author": "Agile Diagnosis <hello@agilediagnosis.com>",
+  "license": "MIT",
+  "dependencies": {
+    "http-proxy": "~0.10.2"
+  }
+}
